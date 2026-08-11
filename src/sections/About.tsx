@@ -28,9 +28,15 @@ export default function About() {
         <div className="about-left">
           <div className="about-photo">
             <div className="photo-placeholder">
-              <span className="photo-icon">▧</span>
-              <p>your photo here</p>
-              <span>portrait image</span>
+
+              <div className="about-photo">
+            <div className="about-photo-border">
+                <img
+                src="/images/frabina.jpg"
+                alt="Frabina Edwin"
+                />
+            </div>
+            </div>
             </div>
           </div>
 
