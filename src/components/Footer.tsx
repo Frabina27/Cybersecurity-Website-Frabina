@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <span className="footer-built">
-          ˙𐃷˙
+          ˙𐃷˙ 
         </span>
       </div>
     </footer>
