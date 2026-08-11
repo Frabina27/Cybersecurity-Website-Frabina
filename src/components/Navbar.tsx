@@ -3,9 +3,9 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <a href="#top" className="brand">
-          <span className="brand-icon">◇</span>
+          <span className="brand-icon">ᶻ 𝗓 𐰁 .ᐟ</span>
           <span className="brand-name">frabina</span>
-          <span className="brand-sub">/ sec</span>
+          <span className="brand-sub">/ edwin</span>
         </a>
 
         <nav className="nav-links">

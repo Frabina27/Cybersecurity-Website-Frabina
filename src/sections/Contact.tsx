@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="section-container">
         <div className="contact-panel">
 
-          <div className="contact-icon">♡</div>
+          <div className="contact-icon">ִ ࣪𖤐.ᐟ</div>
 
           <h2>Let's connect.</h2>
 

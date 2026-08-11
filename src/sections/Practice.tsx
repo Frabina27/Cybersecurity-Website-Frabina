@@ -1,20 +1,20 @@
 const practiceAreas = [
   {
-    icon: "◎",
+    icon: "°❀⋆",
     title: "Endpoint Security",
     description:
       "Endpoint hardening, software control, patching, browser restrictions, and device management across Windows environments.",
     skills: ["Action1", "Defender", "Hardening"],
   },
   {
-    icon: "◇",
+    icon: "ᨳଓ",
     title: "Cloud & Application Development",
     description:
       "Building serverless AI applications with AWS, including API integrations, document retrieval pipelines, Knowledge Bases, and frontend-to-backend workflows.",
     skills: ["AWS", "API Gateway", "Lambda", "Bedrock"],
   },
   {
-    icon: "⌁",
+    icon: "꩜",
     title: "AI Safety & Guardrails",
     description:
       "Implemented guardrails, validation, and feedback mechanisms for an AI chatbot to help constrain responses and improve the reliability of user interactions.",
