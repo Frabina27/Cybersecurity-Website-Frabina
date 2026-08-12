@@ -1131,7 +1131,7 @@ body,
   }
 
   5% {
-    transform: translateY(-40) rotate(2deg);
+    transform: translateY(-40px) rotate(2deg);
   }
 
   10% {
@@ -1211,6 +1211,47 @@ body,
     transform: translateY(0) rotate(-3deg);
   }
 }
+
+.falling-acorn {
+  position: absolute;
+  z-index: 19;
+
+  font-size: 17px;
+  line-height: 1;
+
+  pointer-events: none;
+  user-select: none;
+
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.35));
+
+  animation: acorn-fall 2.8s ease-in forwards;
+}
+
+@keyframes acorn-fall {
+  0% {
+    opacity: 1;
+    transform:
+      translate(0, 0)
+      rotate(0deg);
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+
+    transform:
+      translate(
+        var(--acorn-drift),
+        180px
+      )
+      rotate(var(--acorn-spin));
+  }
+}
+
+
 
 /* particles */
 
